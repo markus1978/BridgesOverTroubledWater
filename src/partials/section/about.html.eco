@@ -1,6 +1,27 @@
 <h2 class="section-title"><%= @labels['about'] %></h2>
-<p itemprop="description">So you want to organize a conference? That's pretty awesome! But we know that you don't have time to create the website, since you have to worry about contacting sponsors, chossing the right place, buying airplane tickets for speakers and many other things.</p>
+<p  itemprop="description">Innovation	 wird	 heute	 in	 zunehmendem	 Maße	 als	 Prozess verstanden,	 der	 in	
+Netzwerken	durchgeführt	wird (Rammert	1997).	Gegenstand	der	Innovationsforschung	
+sind	 folglich	 weniger	 einzelne	 Akteure und	 ihre	 kreativen	 Fähigkeiten,	 sondern	
+heterogene	 Beziehungsgeflechte,	 von denen	 Neuerungen	 interaktiv	 entwickelt	 und	
+durchgesetzt werden (z.B. Sydow	 et	 al.	 2012;	 Burt	 2004;	 Powell	 et	 al.	 1996). Die
+Prozesse	 der Formation	 solcher	 Netzwerke	 zu	 verstehen, ist	 daher	 ein	 zentrales	
+Anliegen	 der	 Innovationsforschung. In	 den	 vergangenen	 Jahren	 konnten wichtige
+diesbezügliche	 Fortschritte ausgehend	 von	 unterschiedlichen	 Ansatzpunkten	 erreicht	
+werden (z.B.	 Berends	 et	 al.	 2011;	 Sydow	 et	 al.	 2015;	 Manger	 2009;	 Dahlander	 und	
+McFarland	 2013;	 Fayard	 und	 Weeks	 2007).	 Insbesondere	 im	 Hinblick	 auf	 die	
+Mikrofundierung	 der	 Konstitutionsprozesse	 besteht	 aber	 weiterhin Bedarf an	
+konzeptionellen,	 methodischen und	 empirischen	 Beiträgen (vgl.	 Emirbayer	 und	
+Goodwin	1994;	Berthod	et	al.	2016;	Hollstein	2011).</p>
 
-<p>That's why we created this project! <a href="https://github.com/braziljs/conf-boilerplate" target="_blank">Conf Boilerplate</a> is an iniciative of <a href="http://braziljs.org" target="_blank">BrazilJS Foundation</a> that provides a simple structure built on top of Docpad, a static generator in NodeJS, with all the things you need to create a event. We also provide a responsive template with i18n!</p>
+<p>Im	Workshop	sollen solche	Beiträge	versammelt	und	diskutiert	werden.	Dabei wird	ein	
+breites	 Netzwerkverständnis	 zugrunde	 gelegt	 und	 dezidiert	 auch	 zu	 Beiträgen	
+aufgerufen,	die	sich	mit	speziellen	Beziehungsformen befassen. Beispielsweise sind	hier	
+auch	Konkurrenzbeziehungen	oder	eher	flüchtige	und	informelle	Austauschbeziehungen	
+adressiert.</p>
 
-<p>This is just a live demo, check our <a href="https://github.com/braziljs/conf-boilerplate" target="_blank">repository on Github</a> for more details =D</p>
+<p>
+Der	 Workshop	 ist	 eine	 Veranstaltung	 des	 Graduiertenkollegs	 Innovationsgesellschaft	
+heute.	Zur	reflexiven	Herstellung	des	Neuen und	findet	am	13.	und	14.	Oktober am	Institut	
+für	Soziologie der TU	Berlin statt.	Geplant	sind	kurze	Vorträge	mit	umfassendem	Raum	
+für	 anschließende	 Diskussion.
+</p>

@@ -7,28 +7,28 @@ module.exports = {
 
     // Conference info
     conf: {
-      name: "Conference name",
-      description: "Conference description",
-      date: "November 15",
+      name: "Bridges Over Troubled Water",
+      description: "Workshop des Graduiertenkollegs Innovationsgesellschaft heute, TU Berlin",
+      date: "13. und 14. Oktober 2016",
       // If your event is free, just comment this line
-      price: "$100",
-      venue: "Coco Bongo",
-      address: "Boulevard Kukulcan, 30",
-      city: "Cancún",
-      state: "Quintana"
+      // price: "$100",
+      venue: "Technische Universität",
+      address: "Fraunhoferstraße, 33",
+      city: "Berlin",
+      state: "Germany"
     },
 
     // The Call To Action button at the header,
     // If you don't want this, just remove the callToAction property.
     callToAction: {
-        text: "Register now!",
-        link: "http://eventick.com.br"
+        text: "Den Call laden!",
+        link: "http://www.organisations-soziologie.de/ag/wp-content/uploads/2016/05/Call_WS_Konstitution-von-Netzwerken.pdf"
     },
 
     // "Fork me on GitHub", if you don't want this, just remove the forkButton property
-    forkButton: {
-        repository: "https://github.com/braziljs/conf-boilerplate"
-    },
+    // forkButton: {
+    //    repository: "https://github.com/braziljs/conf-boilerplate"
+    // },
 
     // Site info
     site: {
@@ -43,22 +43,22 @@ module.exports = {
     sections: [
       'about',
       'location',
-      'speakers',
-      'schedule',
-      'sponsors',
-      'partners'
-      // 'contact'
+      //'speakers',
+      //'schedule',
+      //'sponsors',
+      //'partners'
+      'contact'
     ],
 
     // Labels which you can translate to other languages
     labels: {
-      about: "About",
-      location: "Location",
+      about: "Über",
+      location: "Ort",
       speakers: "Speakers",
       schedule: "Schedule",
       sponsors: "Sponsors",
       partners: "Partners",
-      contact: "Contact"
+      contact: "Anmelden"
     },
 
     // The entire schedule
