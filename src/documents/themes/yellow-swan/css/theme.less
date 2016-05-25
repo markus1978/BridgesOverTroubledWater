@@ -17,7 +17,7 @@ h1, h2, h3, h4, h5, h6 {color:#2b2b2b;}
 /* =============================================================================
    NAVIGATION
    ========================================================================== */
-nav {background: #2b2b2b;}
+nav {background: #214F87;}
 .nav-link {color:#e7e7e7;}
 .nav-link:active,
 .nav-link:hover,
@@ -28,28 +28,34 @@ nav {background: #2b2b2b;}
    HEADER
    ========================================================================== */
 .header {
-  background-image: url('../img/cover.jpg');
+  background-image: url('../img/cover_alt.jpg');
   background-color: #2b2b2b;
   background-repeat: no-repeat;
-  background-position: center bottom;
+  background-position: center center;
   background-size: 100% auto;
+  color: #fff;
 }
 .logo-link, .tagline, .call-action-area .price {
   color:#fff;
   text-shadow: 1px 2px 1px rgba(0,0,0,.3);
 }
+.subtitle {
+  font-weight: normal;
+  text-shadow: 1px 2px 1px rgba(0,0,0,.3);
+  color:#fff;
+}
 .tagline {font-weight: normal;}
 .call-action-area .price {color:#fddd52;}
 .call-action-area .call-action-link, .btn {
-  background-color: #fddd52;
-  background-image: -moz-linear-gradient(top, #fddd52 30%, #f0a303 150%);
-  background-image: -webkit-linear-gradient(top, #fddd52 30%, #f0a303 150%);
-  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#fddd52', endColorstr='#f0a303');
-  background-image: linear-gradient(top, #fddd52 30%, #f0a303 150%);
-  color:#2b2b2b;
-  text-shadow: 0 1px 0 rgba(255,255,255,.5);
-  box-shadow: 0 2px 3px 0 rgba(0,0,0,.4), inset 0 -2px 3px 0 #cc7f0a, inset 0 1px 0 0 #fff9b1;
-  border-radius: 40px;
+  background-color: #214F87;
+  // background-image: -moz-linear-gradient(top, #fddd52 30%, #f0a303 150%);
+  // background-image: -webkit-linear-gradient(top, #fddd52 30%, #f0a303 150%);
+  // filter: progid:dximagetransform.microsoft.gradient(startColorstr='#fddd52', endColorstr='#f0a303');
+  // background-image: linear-gradient(top, #fddd52 30%, #f0a303 150%);
+  color:#fff;
+  // text-shadow: 0 1px 0 rgba(255,255,255,.5);
+  // box-shadow: 0 2px 3px 0 rgba(0,0,0,.4), inset 0 -2px 3px 0 #cc7f0a, inset 0 1px 0 0 #fff9b1;
+  border-radius: 5px;
 }
 
 .github-link {
@@ -66,9 +72,12 @@ nav {background: #2b2b2b;}
 /* =============================================================================
    CONTENT
    ========================================================================== */
-.content a {color:#f0a303;}
+.content h1,h2,h3,h4 {
+  color: #214F87;
+}
+.content a {color:#214F87;}
 .content a:hover, .content a:focus {
-  color:#fddd52;
+  color:#A5C6FF;
   text-decoration: underline;
 }
 

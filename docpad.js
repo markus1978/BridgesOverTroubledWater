@@ -8,12 +8,13 @@ module.exports = {
     // Conference info
     conf: {
       name: "Bridges Over Troubled Water",
-      description: "Workshop des Graduiertenkollegs Innovationsgesellschaft heute, TU Berlin",
+      description: "Die Konstitution von Netzwerken im Innovationsprozess",
       date: "13. und 14. Oktober 2016",
       // If your event is free, just comment this line
       // price: "$100",
-      venue: "Technische Universität",
-      address: "Fraunhoferstraße, 33",
+      venue: "TU Berlin",
+      address: "Fraunhoferstraße 33-36",
+      postal: "10587",
       city: "Berlin",
       state: "Germany"
     },
@@ -21,8 +22,8 @@ module.exports = {
     // The Call To Action button at the header,
     // If you don't want this, just remove the callToAction property.
     callToAction: {
-        text: "Den Call laden!",
-        link: "http://www.organisations-soziologie.de/ag/wp-content/uploads/2016/05/Call_WS_Konstitution-von-Netzwerken.pdf"
+        text: "Call als PDF",
+        link: "call.pdf"
     },
 
     // "Fork me on GitHub", if you don't want this, just remove the forkButton property
@@ -52,13 +53,13 @@ module.exports = {
 
     // Labels which you can translate to other languages
     labels: {
-      about: "Über",
+      about: "Workshopthema",
       location: "Ort",
       speakers: "Speakers",
       schedule: "Schedule",
       sponsors: "Sponsors",
       partners: "Partners",
-      contact: "Anmelden"
+      contact: "Teilnahme"
     },
 
     // The entire schedule
