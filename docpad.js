@@ -13,6 +13,7 @@ module.exports = {
       // If your event is free, just comment this line
       // price: "$100",
       venue: "TU Berlin",
+      subvenue: "Innovationsgesellschaft heute",
       address: "Fraunhoferstraße 33-36",
       postal: "10587",
       city: "Berlin",
