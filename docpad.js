@@ -44,8 +44,8 @@ module.exports = {
     // you can also change order here and it will reflect on page
     sections: [
       'about',
-      'location',
       'talks',
+      'location',
       //'speakers',
       //'schedule',
       //'sponsors',
@@ -81,7 +81,7 @@ module.exports = {
 {"title":"Trans-sectoral cooperation: Power-to-Gas actor constellations in Germany","name":"Lena F. Burchartz","affiliation":"TU Berlin"},
 {"title":"Netzwerke für innovative Stadtentwicklung","name":"Ariane Sept","affiliation":"TU Berlin"},
 {"title":"Innovationsnetzwerke - Der Fall der Elektromobilität in Nordfriesland","name":"Henry Johns","affiliation":"Leibniz Universität Hannover"},
-{"title":"Spielarten des Wissenskapitalismus - Über den Einfluss institutioneller Arrangements auf Innovationen. Am Beispiel der Grünen Biotechnologie.","name":"Dr. Barbara Brandl","affiliation":"Universität Trier"}],
+{"title":"Spielarten des Wissenskapitalismus - Über den Einfluss institutioneller Arrangements auf Innovationen am Beispiel der Grünen Biotechnologie.","name":"Dr. Barbara Brandl","affiliation":"Universität Trier"}],
 
     // The entire schedule
     schedule: [
