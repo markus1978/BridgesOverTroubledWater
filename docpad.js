@@ -36,7 +36,7 @@ module.exports = {
     site: {
       theme: "yellow-swan",
       url: "http://braziljs.github.io/conf-boilerplate/",
-      googleanalytics: "UA-33656081-1"
+      googleanalytics: "UA-740721-18"
     },
 
     // Active sections on the website
@@ -45,6 +45,7 @@ module.exports = {
     sections: [
       'about',
       'location',
+      'talks',
       //'speakers',
       //'schedule',
       //'sponsors',
@@ -60,8 +61,27 @@ module.exports = {
       schedule: "Schedule",
       sponsors: "Sponsors",
       partners: "Partners",
-      contact: "Teilnahme"
+      contact: "Teilnahme",
+      talks: "Vorträge"
     },
+
+    // Talkes
+    talks: [{"title":"Eröffnungsvortrag: Netzwerke und Innovation","name":"Prof. Dr. Arnold Windeler","affiliation":"TU Berlin"},
+{"title":"Innovationspfade und Ingenieurswissenschaften","name":"Dr. Uli Meyer","affiliation":"MCTS München"},
+{"title":"Die reflexive Konstitution von Technologieentwicklung auf Konferenzen","name":"Nils Döring","affiliation":"TU Berlin"},
+{"title":'"Das nächste große Ding" - Messen und Märkte als Orte der Ausverhandlung von Innovationen',"name":"Dr. Christoph Musik","affiliation":"FH St. Pölten"},
+{"title":"Collaborating within and across the organizational boundary of a Synchrotron facility: Innovation at structural folds","name":"Dr. Florian Stache und Andrey Indukaev","affiliation":"FU Berlin und École Normale Supérieure Cachan"},
+{"title":"Koordination im Schatten des Marktes: Brauchbare Fiktionen und Mikrologiken marktlicher Governance in kollaborativen Innovationsprozessen","name":"Dr. André Ortiz","affiliation":"Universität Oldenburg"},
+{"title":"Situationen und ihre Menschen - Die praktische Konstitution informeller Wissensflüsse in Forschung und Entwicklung","name":"Philip Roth","affiliation":"Fraunhofer ISI, Karlsruhe"},
+{"title":"How start-up ecosystems shape new venture creation in favor of project-like organizing","name":"Carolin Auschra und Dr. Thomas Schmidt","affiliation":"FU Berlin"},
+{"title":"Innovationsspezifische Netzwerkbildung von Start-ups im Gründungsprozess","name":"Katharina Scheidgen","affiliation":"TU Berlin"},
+{"title":"Network Ethnography","name":"Dr. Olivier Berthod","affiliation":"FU Berlin"},
+{"title":"Netzwerke praxeologisch gedacht. Versuch einer Brücke zwischen der dokumentarischen Methode und Harrison Whites Netzwerktheorie","name":"Julian Wolf","affiliation":"Universität Witten/Herdecke"},
+{"title":"Network strategies to stimulate the knowledge transfer in science-based clusters: A conceptual framework for cluster management applied to green technology","name":"Georg Reischauer","affiliation":"Hertie School of Governance, Berlin"},
+{"title":"Trans-sectoral cooperation: Power-to-Gas actor constellations in Germany","name":"Lena F. Burchartz","affiliation":"TU Berlin"},
+{"title":"Netzwerke für innovative Stadtentwicklung","name":"Ariane Sept","affiliation":"TU Berlin"},
+{"title":"Innovationsnetzwerke - Der Fall der Elektromobilität in Nordfriesland","name":"Henry Johns","affiliation":"Leibniz Universität Hannover"},
+{"title":"Spielarten des Wissenskapitalismus - Über den Einfluss institutioneller Arrangements auf Innovationen. Am Beispiel der Grünen Biotechnologie.","name":"Dr. Barbara Brandl","affiliation":"Universität Trier"}],
 
     // The entire schedule
     schedule: [

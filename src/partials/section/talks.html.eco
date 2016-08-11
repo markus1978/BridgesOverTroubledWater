@@ -1,0 +1,21 @@
+<h2 class="section-title"><%= @labels['talks'] %></h2>
+<div class="schedule-tbl">
+  <table>
+    <thead>
+      <tr>
+        <th class="schedule-description">Titel</th>
+        <th class="schedule-slot">Name</th>
+        <th class="schedule-slot">Institut</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% for talk in @talks: %>
+        <tr>
+          <td class="schedule-description"><%= talk.title %></td>
+          <td class="schedule-slot"><%= talk.name %></td>
+          <td class="schedule-slot"><%= talk.affiliation %></td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+</div>
