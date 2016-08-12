@@ -55,14 +55,14 @@ module.exports = {
 
     // Labels which you can translate to other languages
     labels: {
-      about: "Workshopthema",
+      about: "Thema",
       location: "Ort",
       speakers: "Speakers",
       schedule: "Schedule",
       sponsors: "Sponsors",
       partners: "Partners",
       contact: "Teilnahme",
-      talks: "Vorträge"
+      talks: "Beiträge"
     },
 
     // Talkes
