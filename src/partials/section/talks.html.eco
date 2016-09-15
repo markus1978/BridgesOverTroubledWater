@@ -1,29 +1,21 @@
 <h2 class="section-title"><%= @labels['talks'] %></h2>
-<% for day in @talks: %>
-  <% if day != @talks[0]: %>
-    <hr style="display: block; border: none;"/>
-  <% end %>
-  <h3 style="font-size: 2.5em;"><%= day.day %></h3>
-  <div class="schedule-tbl">
-    <table>
-      <thead>
+<div class="schedule-tbl">
+  <table>
+    <thead>
+      <tr>
+        <th class="schedule-description">Titel</th>
+        <th class="schedule-slot">Name</th>
+        <th class="schedule-slot">Institut</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% for talk in @talks: %>
         <tr>
-          <th class="schedule-time">Time</th>
-          <th class="schedule-description">Titel</th>
-          <th class="schedule-slot">Name</th>
-          <th class="schedule-slot">Institut</th>
+          <td class="schedule-description"><%= talk.title %></td>
+          <td class="schedule-slot"><%= talk.name %></td>
+          <td class="schedule-slot"><%= talk.affiliation %></td>
         </tr>
-      </thead>
-      <tbody>
-          <% for talk in day.talks: %>
-            <tr>
-              <td class="schedule-time"><%= talk.time %></td>
-              <td class="schedule-description"><%= talk.title %></td>
-              <td class="schedule-slot"><%= talk.name %></td>
-              <td class="schedule-slot"><%= talk.affiliation %></td>
-            </tr>
-          <% end %>
-      </tbody>
-    </table>
-  </div>
-<% end %>
+      <% end %>
+    </tbody>
+  </table>
+</div>

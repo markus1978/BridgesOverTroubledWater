@@ -5,3 +5,19 @@
 </p>
 
 <div id="map-canvas" class="location-area" data-address="<%= @conf.address %>, <%=@conf.postal %> <%= @conf.city %>"></div>
+
+<h4 style="margin-top: 20px">Anfahrt</h4>
+<p>
+Der Workshop findet im Raum FH 919 am Institut für Soziologie der TU Berlin, Fraunhofer Straße 33-36, statt. Dieser befindet sich in der 9. Etage.  Das Gebäude ist durch eine Tankstelle, welche sich im Erdgeschoß befindet, gut zu erkennen.
+</p>
+
+<p style="margin-bottom: 3px;">
+  In der Nähe befinden sich folgende Haltestellen:
+</p>
+  <ul style="font-size: 14px; line-height: 20px;list-style-type: square;list-style:initial;padding-left:20px;">
+    <li>Bus 245, Haltestelle Marchstraße, unmittelbar vor dem Gebäude</li>
+    <li>Bus M45, Haltestelle Marchstraße, 2 Minuten Fußweg (hält Ernst-Reuter-Platz Ecke Otto-Suhr-Allee)</li>
+    <li>U2, Ernst-Reuter-Platz, 5 Minuten Fußweg</li>
+    <li>Bus X9, Haltestelle Ernst-Reuter-Platz, 5 Minuten Fußweg</li>
+    <li>Bus 101, Leibnizstraße/Otto-Suhr-Allee, 5 Minuten Fußweg</li>
+  </ul>

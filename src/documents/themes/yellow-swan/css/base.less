@@ -20,7 +20,7 @@ h2, h3, h4 {
   margin-bottom:.4em;
   letter-spacing: -.02em;
 }
-h3 {font-size: 4em;}
+h3 {font-size: 2em;}
 h4 {font-size:2em;}
 p {
   font-size:1.6em;
@@ -126,11 +126,22 @@ nav {
 /* =============================================================================
    SCHEDULE
    ========================================================================== */
-.schedule-tbl {padding:20px;}
+.schedule-tbl {
+  padding:20px;
+}
 .schedule-tbl table {
   border-collapse: collapse;
   font-size:1em;
 }
+
+.schedule-tbl table:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.schedule-tbl h3 {
+  padding-bottom: 10px;
+}
+
 .schedule-tbl td, .schedule-tbl th {
   position:relative;
   padding:20px 30px;
@@ -152,8 +163,10 @@ nav {
   margin-right:20px;
 }
 .schedule-tbl .schedule-time {
+  width:30px;
   text-align:center;
-  width: 50px;
+  vertical-align: top;
+  padding: 20px 0px;
 }
 .schedule-slot {
   width: 150px;
@@ -161,6 +174,24 @@ nav {
 }
 .schedule-description {
   color: black;
+}
+.schedule-session-title {
+  font-weight: bold;
+}
+.schedule-session-title:not(:last-child) {
+  padding-bottom: 5px;
+}
+.schedule-talk:not(:last-child) {
+  padding-bottom: 10px;
+}
+.schedule-talk-title {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  color: #214F87;
+}
+.schedule-talk-presenter {
+
 }
 .speakers-company {
   display: block;
@@ -232,30 +263,6 @@ nav {
 @media only screen and (min-width:320px) and (max-width : 800px) {
 
   /* schedule */
-  .schedule-tbl {padding:1px;}
-  .schedule-tbl td, .schedule-tbl th {padding:10px;}
-  .schedule-tbl th {
-    padding: 10px;
-    font-size:1.8em;
-  }
-  .schedule-tbl .speaker-photo {
-    width: 40px;
-    height: 40px;
-    margin-right:5px;
-  }
-  .schedule-tbl .schedule-slot {
-    width: 120px;
-  }
-  .schedule-tbl td.schedule-slot {
-    font-size:14px;
-    line-height:1.2em;
-  }
-  .schedule-tbl .schedule-time {
-    width:60px;
-    padding:10px 0 10px 5px;
-    text-align:left;
-  }
-  .schedule-tbl td.schedule-description {font-size:12px;}
 
   /* partners */
   .sponsor-item, .partner-item {margin: 0 5px 10px 0;}
@@ -326,8 +333,6 @@ nav {
     font-size: 4em;
     margin-bottom:.4em;
   }
-  .schedule-tbl .schedule-description {display: none;}
-  .schedule-tbl .schedule-slot {width: auto;}
 
   /* partners */
   .sponsor-item, .partner-item {margin: 0 12px 15px 0;}

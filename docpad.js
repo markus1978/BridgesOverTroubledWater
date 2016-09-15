@@ -44,10 +44,10 @@ module.exports = {
     // you can also change order here and it will reflect on page
     sections: [
       'about',
+      'schedule',
       'talks',
       'location',
       //'speakers',
-      //'schedule',
       //'sponsors',
       //'partners'
       'contact'
@@ -58,7 +58,7 @@ module.exports = {
       about: "Thema",
       location: "Ort",
       speakers: "Speakers",
-      schedule: "Schedule",
+      schedule: "Programm",
       sponsors: "Sponsors",
       partners: "Partners",
       contact: "Teilnahme",
@@ -67,138 +67,64 @@ module.exports = {
 
     // Talkes
     talks: [
-      {
-        day : "Tag 1 (Donnerstag)",
-        talks : [
-          {time: "9:30", "title":"Eröffnungsvortrag: Netzwerke und Innovation","name":"Prof. Dr. Arnold Windeler","affiliation":"TU Berlin"},
-          {time: "11:00", "title" : "Coffee-break" },
-          {time: "9:30", "title":"Innovationspfade und Ingenieurswissenschaften","name":"Dr. Uli Meyer","affiliation":"MCTS München"},
-          {time: "9:30", "title":"Die reflexive Konstitution von Technologieentwicklung auf Konferenzen","name":"Nils Döring","affiliation":"TU Berlin"},
-          {time: "9:30", "title":'"Das nächste große Ding" - Messen und Märkte als Orte der Ausverhandlung von Innovationen',"name":"Dr. Christoph Musik","affiliation":"FH St. Pölten"},
-          {time: "9:30", "title":"Collaborating within and across the organizational boundary of a Synchrotron facility: Innovation at structural folds","name":"Dr. Florian Stache und Andrey Indukaev","affiliation":"FU Berlin und École Normale Supérieure Cachan"},
-          {time: "9:30", "title":"Koordination im Schatten des Marktes: Brauchbare Fiktionen und Mikrologiken marktlicher Governance in kollaborativen Innovationsprozessen","name":"Dr. André Ortiz","affiliation":"InWIS Bochum, zuvor Universität Oldenburg"},
-          {time: "9:30", "title":"Situationen und ihre Menschen - Die praktische Konstitution informeller Wissensflüsse in Forschung und Entwicklung","name":"Philip Roth","affiliation":"Fraunhofer ISI, Karlsruhe"},
-          {time: "9:30", "title":"How start-up ecosystems shape new venture creation in favor of project-like organizing","name":"Carolin Auschra und Dr. Thomas Schmidt","affiliation":"FU Berlin"},
-          {time: "9:30", "title":"Innovationsspezifische Netzwerkbildung von Start-ups im Gründungsprozess","name":"Katharina Scheidgen","affiliation":"TU Berlin"},
-          {time: "9:30", "title":"Network Ethnography","name":"Dr. Olivier Berthod","affiliation":"FU Berlin"},
-          {time: "9:30", "title":"Netzwerke praxeologisch gedacht. Versuch einer Brücke zwischen der dokumentarischen Methode und Harrison Whites Netzwerktheorie","name":"Julian Wolf","affiliation":"Universität Witten/Herdecke"},
-          {time: "9:30", "title":"Network strategies to stimulate the knowledge transfer in science-based clusters: A conceptual framework for cluster management applied to green technology","name":"Georg Reischauer","affiliation":"Hertie School of Governance, Berlin"},
-          {time: "9:30", "title":"Trans-sectoral cooperation: Power-to-Gas actor constellations in Germany","name":"Lena F. Burchartz","affiliation":"TU Berlin"},
-          {time: "9:30", "title":"Netzwerke für innovative Stadtentwicklung","name":"Ariane Sept","affiliation":"TU Berlin"},
-          {time: "9:30", "title":"Innovationsnetzwerke - Der Fall der Elektromobilität in Nordfriesland","name":"Henry Johns","affiliation":"Leibniz Universität Hannover"}
-        ]
-      },
-      {
-        day : "Tag 2 (Freitag)",
-        talks : [
-          {time: "9:30", "title":"Eröffnungsvortrag: Netzwerke und Innovation","name":"Prof. Dr. Arnold Windeler","affiliation":"TU Berlin"},
-        ]
-      }
-    ],
+{"title":"Eröffnungsvortrag: Netzwerke und Innovation","name":"Prof. Dr. Arnold Windeler","affiliation":"TU Berlin"},
+{"title":"Innovationspfade und Ingenieurswissenschaften","name":"Dr. Uli Meyer","affiliation":"MCTS München"},
+{"title":"Die reflexive Konstitution von Technologieentwicklung auf Konferenzen","name":"Nils Döring","affiliation":"TU Berlin"},
+{"title":'"Das nächste große Ding" - Messen und Märkte als Orte der Ausverhandlung von Innovationen',"name":"Dr. Christoph Musik","affiliation":"FH St. Pölten"},
+{"title":"Collaborating within and across the organizational boundary of a Synchrotron facility: Innovation at structural folds","name":"Dr. Florian Stache und Andrey Indukaev","affiliation":"FU Berlin und École Normale Supérieure Cachan"},
+{"title":"Koordination im Schatten des Marktes: Brauchbare Fiktionen und Mikrologiken marktlicher Governance in kollaborativen Innovationsprozessen","name":"Dr. André Ortiz","affiliation":"InWIS Bochum, zuvor Universität Oldenburg"},
+{"title":"Situationen und ihre Menschen - Die praktische Konstitution informeller Wissensflüsse in Forschung und Entwicklung","name":"Philip Roth","affiliation":"Fraunhofer ISI, Karlsruhe"},
+{"title":"How start-up ecosystems shape new venture creation in favor of project-like organizing","name":"Carolin Auschra und Dr. Thomas Schmidt","affiliation":"FU Berlin"},
+{"title":"Innovationsspezifische Netzwerkbildung von Start-ups im Gründungsprozess","name":"Katharina Scheidgen","affiliation":"TU Berlin"},
+{"title":"Network Ethnography","name":"Dr. Olivier Berthod","affiliation":"FU Berlin"},
+{"title":"Netzwerke praxeologisch gedacht. Versuch einer Brücke zwischen der dokumentarischen Methode und Harrison Whites Netzwerktheorie","name":"Julian Wolf","affiliation":"Universität Witten/Herdecke"},
+{"title":"Network strategies to stimulate the knowledge transfer in science-based clusters: A conceptual framework for cluster management applied to green technology","name":"Georg Reischauer","affiliation":"Hertie School of Governance, Berlin"},
+{"title":"Trans-sectoral cooperation: Power-to-Gas actor constellations in Germany","name":"Lena F. Burchartz","affiliation":"TU Berlin"},
+{"title":"Netzwerke für innovative Stadtentwicklung","name":"Ariane Sept","affiliation":"TU Berlin"},
+{"title":"Innovationsnetzwerke - Der Fall der Elektromobilität in Nordfriesland","name":"Henry Johns","affiliation":"Leibniz Universität Hannover"}],
 
     // The entire schedule
     schedule: [
       {
-        name: "Check-in / Breakfast",
-        time: "9h00"
+        day : "Donnerstag, 13. Oktober",
+        sessions : [
+          {
+            time : "9:30-10:00",
+            name : "Ankunft und Anmeldung"
+          },
+          {
+            time : "10:00-10:15",
+            name : "Begrüßung",
+          },
+          {
+            time : "11:00-12:45",
+            talks : [
+              {"title":"Eröffnungsvortrag: Netzwerke und Innovation","name":"Prof. Dr. Arnold Windeler","affiliation":"TU Berlin"},
+              {"title":"Innovationspfade und Ingenieurswissenschaften","name":"Dr. Uli Meyer","affiliation":"MCTS München"},
+            ]
+          },
+        ]
       },
       {
-        name: "Linus Torvalds",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Linux Foundation",
-        link: {
-          href: "http://twitter.com/linus",
-          text: "@linus"
-        },
-        presentation: {
-          title: "Digging into a Linux Kernel",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "10h00"
-        }
-      },
-      {
-        name: "Bill Gates",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Microsoft",
-        link: {
-          href: "http://github.com/billy95",
-          text: "@billy95"
-        },
-        presentation: {
-          title: "Introducing Windows 12",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "11h00"
-        }
-      },
-      {
-        name: "Lunch",
-        time: "12h00"
-      },
-      {
-        name: "Chuck Norris",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Delta Command",
-        link: {
-          href: "http://twitter.com/littlechuck",
-          text: "@littlechuck"
-        },
-        presentation: {
-          title: "How to kill a elephant with one finger",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "13h00"
-        }
-      },
-      {
-        name: "Steve Jobs",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Apple, Inc.",
-        link: {
-          href: "http://github.com/stevie",
-          text: "@stevie"
-        },
-        presentation: {
-          title: "Presenting iPad",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "14h00"
-        }
-      },
-      {
-        name: "Coffee-break",
-        time: "15h00"
-      },
-      {
-        name: "Mark Zuckerberg",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Facebook",
-        link: {
-          href: "http://twitter.com/zuck",
-          text: "@zuck"
-        },
-        presentation: {
-          title: "Revealing Facebook Secrets",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "16h00"
-        }
-      },
-      {
-        name: "Steve Wozniak",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Apple, Inc.",
-        link: {
-          href: "http://twitter.com/woz",
-          text: "@woz"
-        },
-        presentation: {
-          title: "Why do I prefer Android over iPhone",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "17h00"
-        }
+        day : "Freitag, 14. Oktober",
+        sessions : [
+          {
+            time : "9:30-10:00",
+            name : "Ankunft und Anmeldung"
+          },
+          {
+            time : "10:00-10:15",
+            name : "Begrüßung",
+          },
+          {
+            time : "11:00-12:45",
+            name : "Session 1",
+            talks : [
+              {"title":"Eröffnungsvortrag: Netzwerke und Innovation","name":"Prof. Dr. Arnold Windeler","affiliation":"TU Berlin"},
+              {"title":"Innovationspfade und Ingenieurswissenschaften","name":"Dr. Uli Meyer","affiliation":"MCTS München"},
+            ]
+          },
+        ]
       }
     ],
 
