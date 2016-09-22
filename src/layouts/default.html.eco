@@ -26,6 +26,7 @@
   <link rel="stylesheet" type="text/css" href="<%= @getTheme() %>/css/main.css">
   <!-- / STYLES -->
 
+  <script type="text/javascript" src="//cdn.jsdelivr.net/cookie-bar/1/cookiebar-latest.min.js?theme=grey&thirdparty=1"></script>
 </head>
 <body>
 
@@ -41,6 +42,8 @@
         <!-- FOOTER -->
         <footer class="footer">
           <!--p>Made with ♥ by <a href="https://github.com/braziljs/conf-boilerplate" target="_blank">Conf Boilerplate</a> :)</p-->
+          Titelfoto bereitgestellt unter <i>Creative Commons Zero (CCO)</i>-Lizenz durch <a href="https://bossfight.co/wooden-bridge-men/">bossfight.co</a>. Impressum: <a href="http://www.tu-berlin.de/servicemenue/impressum/">Zentrale
+Adresse der TU Berlin</a>.
         </footer>
         <!-- / FOOTER -->
       </div>

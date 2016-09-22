@@ -4,7 +4,7 @@
   <span itemprop="streetAddress"><%= @conf.address %>, <%=@conf.postal %> <%= @conf.city %></span>
 </p>
 
-<div id="map-canvas" class="location-area" data-address="<%= @conf.address %>, <%=@conf.postal %> <%= @conf.city %>"></div>
+<div class="location-area"><iframe src="http://www.google.com/maps/d/embed?mid=1SXWq5_CN2K6lf3PfcQObcGVWs0s&hl=de" width="100%" height="100%"></iframe></div>
 
 <h4 style="margin-top: 20px">Anfahrt</h4>
 <p>
