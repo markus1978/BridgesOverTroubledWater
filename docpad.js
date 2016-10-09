@@ -23,8 +23,8 @@ module.exports = {
     // The Call To Action button at the header,
     // If you don't want this, just remove the callToAction property.
     callToAction: {
-        text: "Call als PDF",
-        link: "call.pdf"
+        text: "Programm als PDF",
+        link: "programm.pdf"
     },
 
     // "Fork me on GitHub", if you don't want this, just remove the forkButton property
@@ -45,7 +45,7 @@ module.exports = {
     sections: [
       'about',
       'schedule',
-      'talks',
+      //'talks',
       'location',
       //'speakers',
       //'sponsors',
@@ -86,43 +86,168 @@ module.exports = {
     // The entire schedule
     schedule: [
       {
-        day : "Donnerstag, 13. Oktober",
-        sessions : [
+        day: "Donnerstag, 13. Oktober",
+        sessions: [
           {
-            time : "9:30-10:00",
-            name : "Ankunft und Anmeldung"
+            time: "9:30-10:00",
+            name: "Ankunft und Anmeldung"
           },
           {
-            time : "10:00-10:15",
-            name : "Begrüßung",
+            time: "10:00-10:15",
+            name: "Begrüßung",
+
           },
           {
-            time : "11:00-12:45",
-            talks : [
-              {"title":"Eröffnungsvortrag: Netzwerke und Innovation","name":"Prof. Dr. Arnold Windeler","affiliation":"TU Berlin"},
-              {"title":"Innovationspfade und Ingenieurswissenschaften","name":"Dr. Uli Meyer","affiliation":"MCTS München"},
+            time: "10:15-11:45",
+            talks: [
+              {
+                "title": "Eröffnungsvortrag: Netzwerke und Innovation",
+                "name": "Prof. Dr. Arnold Windeler",
+                "affiliation": "TU Berlin"
+              },
+              {
+                "title": " Collaborating within and across the organizational boundary of a Synchrotron facility: Innovation at structural folds",
+                "name": "Dr. Florian Stache, Andrey Indukaev",
+                "affiliation": " FU Berlin und École Normale Supérieure Cachan "
+              },
+
             ]
           },
+          {
+            time: "11:45-12:45",
+            name: "Mittagspause",
+
+          },
+          {
+            time: "12:45-14:15",
+            talks: [
+              {
+                "title": "Situationen und ihre Menschen - Die praktische Konstitution informeller Wissensflüsse in Forschung und Entwicklung",
+                "name": "Philip Roth",
+                "affiliation": "Fraunhofer ISI, Karlsruhe"
+              },
+              {
+                "title": "Koordination im Schatten des Marktes: Brauchbare Fiktionen und Mikrologiken marktlicher Governance in kollaborativen Innovationsprozessen",
+                "name": "Dr. André Ortiz",
+                "affiliation": "InWIS Bochum, zuvor Universität Oldenburg"
+              },
+
+            ]
+          },
+          {
+            time: "14:15-14:30",
+            name: "Kaffeepause",
+
+          },
+          {
+            time: "14:30-15:30",
+            name: "Postersession",
+            talks: [
+              {
+                "title": "Network strategies to stimulate the knowledge transfer in science-based clusters: A conceptual framework for cluster management applied to green technology",
+                "name": "Georg Reischauer",
+                "affiliation": "Hertie School of Governance, Berlin"
+              },
+              {
+                "title": " Trans-sectoral cooperation: Power-to-Gas actor constellations in Germany",
+                "name": "Lena F. Burchartz",
+                "affiliation": " TU Berlin"
+              },
+              {
+                "title": " Netzwerke für innovative Stadtentwicklung",
+                "name": "Ariane Sept",
+                "affiliation": " TU Berlin"
+              },
+              {
+                "title": " Innovationsnetzwerke - Der Fall der Elektromobilität in Nordfriesland",
+                "name": "Henry Johns",
+                "affiliation": " Leibniz Universität Hannover"
+              },
+
+            ]
+          },
+          {
+            time: "15:30-15:45",
+            name: "Kaffeepause",
+
+          },
+          {
+            time: "15:45-17:15",
+            name: "Methodologische Ansätze",
+            talks: [
+              {
+                "title": "Netzwerke praxeologisch gedacht. Versuch einer Brücke zwischen der dokumentarischen Methode und Harrison Whites Netzwerktheorie",
+                "name": "Julian Wolf",
+                "affiliation": "Universität Witten/Herdecke"
+              },
+              {
+                "title": " Network Ethnography",
+                "name": "Dr. Olivier Berthod",
+                "affiliation": " FU Berlin"
+              },
+
+            ]
+          },
+          {
+            time: "ab 18:00",
+            name: "Gemeinsames Abendessen im Cafè Hardenberg",
+
+          },
+
         ]
       },
       {
-        day : "Freitag, 14. Oktober",
-        sessions : [
+        day: "Freitag, 14. Oktober",
+        sessions: [
           {
-            time : "9:30-10:00",
-            name : "Ankunft und Anmeldung"
-          },
-          {
-            time : "10:00-10:15",
-            name : "Begrüßung",
-          },
-          {
-            time : "11:00-12:45",
-            name : "Session 1",
-            talks : [
-              {"title":"Eröffnungsvortrag: Netzwerke und Innovation","name":"Prof. Dr. Arnold Windeler","affiliation":"TU Berlin"},
-              {"title":"Innovationspfade und Ingenieurswissenschaften","name":"Dr. Uli Meyer","affiliation":"MCTS München"},
+            time: "10:00-12:15",
+            name: "Die Aushandlung von Innovationspfaden",
+            talks: [
+              {
+                "title": "Innovationspfade und Ingenieurswissenschaften",
+                "name": "Dr. Uli Meyer",
+                "affiliation": "MCTS München"
+              },
+              {
+                "title": " Die reflexive Konstitution von Technologieentwicklung auf Konferenzen",
+                "name": "Nils Döring",
+                "affiliation": " TU Berlin"
+              },
+              {
+                "title": " Das nächste große Ding - Messen und Märkte als Orte der Ausverhandlung von Innovationen",
+                "name": "Dr. Christoph Musik",
+                "affiliation": " FH St. Pölten"
+              },
+
             ]
+          },
+          {
+            time: "12:15-13:15",
+            name: "Mittagspause"
+          },
+          {
+            time: "13:15-14:45",
+            name: "Start-ups und ihre Netzwerke",
+            talks: [
+              {
+                "title": "Innovationsspezifische Netzwerkbildung von Start-ups im Gründungsprozess",
+                "name": "Katharina Scheidgen",
+                "affiliation": "TU Berlin"
+              },
+              {
+                "title": " How start-up ecosystems shape new venture creation in favor of project-like organizing",
+                "name": "Carolin Auschra und Dr. Thomas Schmidt",
+                "affiliation": " FU Berlin"
+              },
+            ]
+          },
+          {
+            time: "14:45-15:00",
+            name: "Kaffeepause"
+          },
+          {
+            time: "15:00-16:00",
+            name: "Abschlussdiskussion"
           },
         ]
       }

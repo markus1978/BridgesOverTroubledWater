@@ -1,11 +1,14 @@
 <h2 class="section-title"><%= @labels['contact'] %></h2>
 <p>
-Die Teilnahme ist kostenfrei, Anreise und Unterkunft werden nicht übernommen. Abstracts für Vortragsangebote im Umfang von etwa 2500 Zeichen können bis zum 31. Juli bei den Organisatoren eingereicht werden.</p>
-
-<p>Zur Anmeldung (bis zum 30. September) oder bei Fragen zum Workshop wenden Sie sich bitte ebenfalls an die Organisatoren.
+Die Teilnahme ist kostenfrei, Anreise und Unterkunft werden nicht übernommen.
+Donnerstag Abend ist ein gemeinsames Abendessen geplant.
 </p>
 
-<h4> Organisatoren </h4>
+<p>Zur Anmeldung (bis zum 30. September) oder bei Fragen zum Workshop wenden Sie sich bitte ebenfalls an die Organisatoren.
+Die Teilnahme ist auch ohne Vortrag oder Poster möglich.
+</p>
+
+<h4> Organisatoren </h4>
 
 <p style="margin-bottom: 0em;">
 Katharina Scheidgen (<a href="mailto:katharina.scheidgen@innovation.tu-berlin.de">katharina.scheidgen@innovation.tu-berlin.de</a>)
@@ -13,4 +16,3 @@ Katharina Scheidgen (<a href="mailto:katharina.scheidgen@innovation.tu-berlin.de
 <p>
 Philip Roth (<a href="mailto:philip.roth@isi.fraunhofer.de">philip.roth@isi.fraunhofer.de</a>)
 </p>
-
