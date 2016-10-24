@@ -108,7 +108,8 @@ module.exports = {
               {
                 "title": " Collaborating within and across the organizational boundary of a Synchrotron facility: Innovation at structural folds",
                 "name": "Dr. Florian Stache, Andrey Indukaev",
-                "affiliation": " FU Berlin und École Normale Supérieure Cachan "
+                "affiliation": " FU Berlin und École Normale Supérieure Cachan ",
+                "slides" : "slides/Stache.pdf"
               },
 
             ]
@@ -161,7 +162,8 @@ module.exports = {
               {
                 "title": " Innovationsnetzwerke - Der Fall der Elektromobilität in Nordfriesland",
                 "name": "Henry Johns",
-                "affiliation": " Leibniz Universität Hannover"
+                "affiliation": " Leibniz Universität Hannover",
+                "slides": "slides/Johns.pdf"
               },
 
             ]
@@ -247,7 +249,8 @@ module.exports = {
           },
           {
             time: "15:00-16:00",
-            name: "Abschlussdiskussion"
+            name: "Abschlussdiskussion",
+            slides: "slides/Glaeser.pdf"
           },
         ]
       }

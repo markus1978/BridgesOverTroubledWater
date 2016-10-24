@@ -10,13 +10,25 @@
           <td class="schedule-time"><%= session.time %></td>
           <td class="schedule-slot">
             <% if (session.name): %>
-              <div class="schedule-session-title"><%= session.name %></div>
+              <% if (!session.talks && session.slides): %>
+                <a href="<%= session.slides %>">
+                  <div class="schedule-session-title"><%= session.name %></div>
+                </a>
+              <% else: %>
+                <div class="schedule-session-title"><%= session.name %></div>
+              <% end %>
             <% end %>
             <% if (session.talks): %>
               <ul>
                 <% for talk in session.talks: %>
                   <li class="schedule-talk">
-                    <div class="schedule-talk-title"><%= talk.title %></div>
+                    <div class="schedule-talk-title">
+                      <% if talk.slides: %>
+                        <a href="<%= talk.slides %>"><%= talk.title %></a>
+                      <% else: %>
+                        <%= talk.title %>
+                      <% end %>
+                    </div>
                     <div class="schedule-talk-presenter">
                       <%= talk.name %>, <%= talk.affiliation %>
                     </div>
