@@ -145,11 +145,6 @@ module.exports = {
             name: "Postersession",
             talks: [
               {
-                "title": "Network strategies to stimulate the knowledge transfer in science-based clusters: A conceptual framework for cluster management applied to green technology",
-                "name": "Georg Reischauer",
-                "affiliation": "Hertie School of Governance, Berlin"
-              },
-              {
                 "title": " Trans-sectoral cooperation: Power-to-Gas actor constellations in Germany",
                 "name": "Lena F. Burchartz",
                 "affiliation": " TU Berlin"
@@ -175,12 +170,12 @@ module.exports = {
           },
           {
             time: "15:45-17:15",
-            name: "Methodologische Ansätze",
+            // name: "Methodologische Ansätze",
             talks: [
               {
-                "title": "Netzwerke praxeologisch gedacht. Versuch einer Brücke zwischen der dokumentarischen Methode und Harrison Whites Netzwerktheorie",
-                "name": "Julian Wolf",
-                "affiliation": "Universität Witten/Herdecke"
+                "title": "Network strategies to stimulate the knowledge transfer in science-based clusters: A conceptual framework for cluster management applied to green technology",
+                "name": "Georg Reischauer",
+                "affiliation": "Hertie School of Governance, Berlin"
               },
               {
                 "title": " Network Ethnography",
@@ -203,7 +198,7 @@ module.exports = {
         sessions: [
           {
             time: "10:00-12:15",
-            name: "Die Aushandlung von Innovationspfaden",
+            // name: "Die Aushandlung von Innovationspfaden",
             talks: [
               {
                 "title": "Innovationspfade und Ingenieurswissenschaften",
@@ -229,7 +224,7 @@ module.exports = {
           },
           {
             time: "13:15-14:45",
-            name: "Start-ups und ihre Netzwerke",
+            // name: "Start-ups und ihre Netzwerke",
             talks: [
               {
                 "title": "Innovationsspezifische Netzwerkbildung von Start-ups im Gründungsprozess",
